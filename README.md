@@ -34,8 +34,8 @@ project1-api/
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd project1-api
+git clone git clone https://github.com/omar2301433/DecodeLabs-Internship-Project-1.git
+cd DecodeLabs-Internship-Project-1 or porject-1
 ```
 
 2. Create a virtual environment:
@@ -67,56 +67,6 @@ The API will be available at:
 http://127.0.0.1:8000
 ```
 
-## API Endpoints
-
-### GET /
-
-Returns a welcome message.
-
-Response:
-
-```json
-{
-  "message": "Welcome to DecodeLabs Project 1 API"
-}
-```
-
-### GET /products
-
-Returns a list of products.
-
-Response:
-
-```json
-{
-  "products": []
-}
-```
-
-### POST /products
-
-Creates a new product.
-
-Request Body:
-
-```json
-{
-  "name": "Laptop",
-  "price": 999.99
-}
-```
-
-Response:
-
-```json
-{
-  "message": "Product created successfully",
-  "product": {
-    "name": "Laptop",
-    "price": 999.99
-  }
-}
-```
 
 ## API Documentation
 
